@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added Vision and Mission sections
 - Restructed Team and culture section
+- Added Career section
 
 ## 21-04-2021
 

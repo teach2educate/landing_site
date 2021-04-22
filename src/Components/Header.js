@@ -29,10 +29,10 @@ class Header extends Component {
                <ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                   <li><a className="smoothscroll" href="#vision_mission">Vision & Mission</a></li>
-                  <li><a className="smoothscroll" href="#team_culture">Team and Culture</a></li>
-                  <li><a className="smoothscroll" href="#awards">Awards</a></li>
-                  <li><a className="smoothscroll" href="#careers">Careers</a></li>
-                  <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                  <li><a className="smoothscroll" href="#team_culture">Team</a></li>
+                  {/* <li><a className="smoothscroll" href="#awards">Awards</a></li> */}
+                  <li><a className="smoothscroll" href="#career">Careers</a></li>
+                  {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
                </ul>
 
             </nav>
@@ -49,7 +49,7 @@ class Header extends Component {
             </div>
 
             <p className="scrolldown">
-               <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+               <a className="smoothscroll" href="#vision_mission"><i className="icon-down-circle"></i></a>
             </p>
 
          </header>

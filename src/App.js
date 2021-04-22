@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Team from './Components/Team';
 import Vision_Mission from './Components/Vision_Mission';
+import Awards from './Components/Awards';
+import Careers from './Components/Careers';
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
         <Header />
         <Vision_Mission />
         <Team />
+        {/* <Awards /> */}
+        <Careers />
         <Footer />
       </div>
     );
