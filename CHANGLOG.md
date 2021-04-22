@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] 
 
+## 22-04-2021
+
+### Feature
+
+- Added Vision and Mission sections
+- Restructed Team and culture section
+
 ## 21-04-2021
 
 ### Chore

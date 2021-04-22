@@ -183,100 +183,112 @@ ul#nav li.current a { color: #7A7A7A; }
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* c. Vision Mission Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#vision_mission {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   text-align: center;
+   padding: 80px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#vision_mission a, #vision_mission a:visited  { color: #fff; }
+#vision_mission a:hover, #vision_mission a:focus { color: #11ABB0; }
 
-#about h2 {
+#vision_mission h1 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
-   line-height: 30px;
-   color: #7A7A7A;
+#vision_mission h4 {
+   font: 18px/20px sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
 }
-#about .profile-pic {
+#vision_mission p {
+   line-height: 20px;
+   color: #fff;
+}
+#vision_mission .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
+#vision_mission .contact-details { width: 41.66667%; }
+#vision_mission .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#vision_mission .main-col { padding-right: 5%; }
+#vision_mission .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#vision_mission .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#vision_mission .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Team and Culture Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#team_culture {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#team_culture .profile-pic {
+   position: relative;
+   width: 220px;
+   height: 220px;
+   border-radius: 20%;
+}
 
-#resume h1 {
+#team_culture a, #team_culture a:visited  { color: #11ABB0; }
+#team_culture a:hover, #team_culture a:focus { color: #313131; }
+
+#team_culture h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#team_culture h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#team_culture h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#team_culture .header-col { padding-top: 9px; }
+#team_culture .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#team_culture .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#team_culture .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#team_culture .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
