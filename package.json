@@ -1,0 +1,25 @@
+{
+  "name": "personalportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kiranraju03.github.io/portfolio/",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.2.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^16.2.0",
+    "react-ga": "^2.3.5",
+    "react-responsive-carousel": "^3.2.18",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

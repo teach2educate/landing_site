@@ -1,0 +1,117 @@
+{
+  "main": {
+    "name": "Kiran Raju Krishna",
+    "occupation": "Software Engineer",
+    "description": "Working as a Front End developer and building Flutter apps, with keen interest in learning and exploring new ideas and approaches growing myself and the enhancing the project I'm working on.",
+    "image": "profilepic.jpg",
+    "bio": "",
+    "contactmessage": "You can contact me by filling out the form below",
+    "email": "kiran.raju.k.43@gmail.com",
+    "phone": "7406074675",
+    "address": {
+      "street": "BEML Layout, Rajarajeswari Nagar",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560098"
+    },
+    "website": "",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/kiranraju03",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kiranrajuk/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/kiranrajuk.03/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/kiranraju03/",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "With over 3 years of experience in development, currently moved towards mobile app development using Flutter",
+    "education": [
+      {
+        "school": "BNMIT",
+        "degree": "Bachelor's in Computer Science Engineering",
+        "graduated": "June 2013 - June 2017",
+        "description": "Got a exposure to wide range of possibilities that can be explored in Computer Science Engineering, won the \"Best Project Award\" for the final year project, for which I had contributed as a front end developer."
+      }
+    ],
+    "work": [
+      {
+        "company": "Dhiyo.ai",
+        "title": "Software Engineer",
+        "years": "June 2020 - Present",
+        "description": "Joined to get the taste of Start-up environment, working as a Flutter applications development. Have built 2 major apps from ground-up. Taken care of integration and responsive UI for different devices. Using my creative skills to bring out ads for the company too."
+      },
+      {
+        "company": "Freelancing",
+        "title": "Front end web/app development",
+        "years": "July 2019 - May 2020",
+        "description": "Worked on various projects to enhance my skill sets in area of development, and did freelancing for couple of projects and submitted them to various Hackathons and got shortlisted to finals."
+      },
+      {
+        "company": "Accenture",
+        "title": "Associate Software Engineer",
+        "years": "Nov 2017 - June 2019",
+        "description": "Been passed out of college as a Fresher to the IT world, got a chance to work in the DevOps domain. Got exposed to handling clients and production releases. Used my technical knowledge and developed various automation scripts using python to enhance the agile process of development for faster and effective releases."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Flutter",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "40%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Fit Runner",
+        "category": "A Sample flutter app for tracking users fitness",
+        "image": "https://github.com/kiranraju03/fitrunner/raw/master/screenshots/MapGIF.gif",
+        "url": "https://github.com/kiranraju03/fitrunner"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Kiran joined my team as a offshore resource with the Dev-Ops & Application Operations Associate and was reporting to me.Being just passed out of college and joining the team with no prior experience, Kiran took up the challenge with the demanding client to prove his ability. With the expertise knowledge on Python and the provided guidance from the team, he was able to find the pain points, automate and bring the stability to the agile development process.Kiran can go well above and beyond the technical process and learn new things and has all the capabilities to adapt to the quickly changing technologies and processes with the strong basics.He is a good asset to the team who can bring positivitiy and agility and a very good team player.",
+        "user": "Yograj Patel, Application Support Associate Manager, Accenture"
+      },
+      {
+        "text": "Kiran is an enthusiastic and talented problem solver who has been a prime contributor to the project. He is a quick learner and people developer. He is not afraid to tackle unexplored areas of requirements both technical and functional.",
+        "user": "Anand Yalagar, Senior Software Engineer, Accenture"
+      }
+    ]
+  }
+}
