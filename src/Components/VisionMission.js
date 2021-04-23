@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class Vision_Mission extends Component {
+class VisionMission extends Component {
     render() {
         return (
-            <section id="vision_mission">
+            <section id="visionMission">
                 <div>
                     <h1>Vision</h1>
                     <p>We have a dream to create a world where education is not a business limited to securing good marks in schools, but one, whose purpose is to promote 21st-century skills such as critical thinking, communication, collaboration in each student to become lifelong learners.</p>
@@ -17,4 +17,4 @@ class Vision_Mission extends Component {
     }
 }
 
-export default Vision_Mission;
+export default VisionMission;

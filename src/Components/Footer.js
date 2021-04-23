@@ -3,32 +3,32 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
 
-    var socials = [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/company/teach2educate/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/teach2educate/",
-        "className": "fa fa-facebook"
-      }
-    ];
-    var networks = socials.map(function (network) {
-      return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-    });
+    // var socials = [
+    //   {
+    //     "name": "linkedin",
+    //     "url": "https://www.linkedin.com/company/teach2educate/",
+    //     "className": "fa fa-linkedin"
+    //   },
+    //   {
+    //     "name": "facebook",
+    //     "url": "https://www.facebook.com/teach2educate/",
+    //     "className": "fa fa-facebook"
+    //   }
+    // ];
+    // var networks = socials.map(function (network) {
+    //   return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+    // });
     return (
       <footer>
 
         <div className="row">
           <div className="twelve columns">
-            <ul className="social-links">
+            {/* <ul className="social-links">
               {networks}
-            </ul>
+            </ul> */}
 
             <ul className="copyright">
-              <li>&copy; Copyright 2021 Teach2Educate</li>
+              <li style={{color:'white', fontWeight: 'bold'}}>&copy; 2021, Teach2Educate</li>
             </ul>
 
           </div>

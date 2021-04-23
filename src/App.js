@@ -3,8 +3,8 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Team from './Components/Team';
-import Vision_Mission from './Components/Vision_Mission';
-import Awards from './Components/Awards';
+import VisionMission from './Components/VisionMission';
+// import Awards from './Components/Awards';
 import Careers from './Components/Careers';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Vision_Mission />
+        <VisionMission />
         <Team />
         {/* <Awards /> */}
         <Careers />

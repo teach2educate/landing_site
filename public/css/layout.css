@@ -186,51 +186,51 @@ ul#nav li.current a { color: #7A7A7A; }
 /* c. Vision Mission Section
 /* ------------------------------------------------------------------ */
 
-#vision_mission {
+#visionMission {
    background: #2B2B2B;
    text-align: center;
    padding: 80px;
    overflow: hidden;
 }
 
-#vision_mission a, #vision_mission a:visited  { color: #fff; }
-#vision_mission a:hover, #vision_mission a:focus { color: #11ABB0; }
+#visionMission a, #visionMission a:visited  { color: #fff; }
+#visionMission a:hover, #visionMission a:focus { color: #11ABB0; }
 
-#vision_mission h1 {
+#visionMission h1 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#vision_mission h4 {
+#visionMission h4 {
    font: 18px/20px sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#vision_mission p {
+#visionMission p {
    line-height: 20px;
    color: #fff;
 }
-#vision_mission .profile-pic {
+#visionMission .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
 }
-#vision_mission .contact-details { width: 41.66667%; }
-#vision_mission .download {
+#visionMission .contact-details { width: 41.66667%; }
+#visionMission .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#vision_mission .main-col { padding-right: 5%; }
-#vision_mission .download .button {
+#visionMission .main-col { padding-right: 5%; }
+#visionMission .download .button {
    margin-top: 6px;
    background: #444;
 }
-#vision_mission .download .button:hover {
+#visionMission .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#vision_mission .download .button i {
+#visionMission .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }

@@ -28,7 +28,7 @@ class Header extends Component {
 
                <ul id="nav" className="nav">
                   <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                  <li><a className="smoothscroll" href="#vision_mission">Vision & Mission</a></li>
+                  <li><a className="smoothscroll" href="#visionMission">Vision & Mission</a></li>
                   <li><a className="smoothscroll" href="#team_culture">Team</a></li>
                   {/* <li><a className="smoothscroll" href="#awards">Awards</a></li> */}
                   <li><a className="smoothscroll" href="#career">Careers</a></li>
@@ -40,8 +40,12 @@ class Header extends Component {
             <div className="row banner">
                <div className="banner-text">
                   <h1 className="responsive-headline">Teach2Educate</h1>
-                  <h3>We are a Peer-to-Peer based learner-centric platform to enhance student engagement with active and collaborative learning activities in blended classroom settings while recognising, fostering unique skill sets of each student to promote their holistic development.</h3>
-                  <hr />
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <h3 style={{ color: 'white', fontWeight: 'bold' }}>We are a Peer-to-Peer based learner-centric platform to enhance student engagement with active & collaborative learning activities in blended classroom settings while recognising, fostering unique skill sets of each student to promote their holistic development.</h3>
                   <ul className="social">
                      {networks}
                   </ul>
@@ -49,7 +53,7 @@ class Header extends Component {
             </div>
 
             <p className="scrolldown">
-               <a className="smoothscroll" href="#vision_mission"><i className="icon-down-circle"></i></a>
+               <a className="smoothscroll" href="#visionMission"><i className="icon-down-circle"></i></a>
             </p>
 
          </header>
