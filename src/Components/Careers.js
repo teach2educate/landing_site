@@ -4,7 +4,7 @@ class Careers extends Component {
     render() {
         return (
             <section id="career">
-                <div style={{'text-align': 'center'}}>
+                <div style={{textAlign: 'center'}}>
                     <h2>Careers @ T2E</h2>
                     <h4>Our Culture</h4>
                     <ul>
