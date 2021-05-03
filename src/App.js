@@ -6,6 +6,7 @@ import Team from './Components/Team';
 import VisionMission from './Components/VisionMission';
 import Awards from './Components/Awards';
 import Careers from './Components/Careers';
+import Testimonials from './Components/Testimonials';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <VisionMission />
         <Team />
         <Awards />
+        <Testimonials />
         <Careers />
         <Footer />
       </div>

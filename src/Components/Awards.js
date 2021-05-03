@@ -11,26 +11,34 @@ class Awards extends Component {
             infinite: true,
             easing: "ease",
         };
+        var images = [
+            'images/awards/awards_1.png',
+            'images/awards/awards_2.png',
+            'images/awards/awards_3.png',
+            'images/awards/awards_4.png',
+            'images/awards/awards_5.png',
+            'images/awards/awards_6.png',
+            'images/awards/awards_7.png',
+        ];
+        var awardsImages = images.map(
+            function (image) {
+                return <div className="each-slide" key={image}>
+                    <div className="image-container">
+                        <img src={image} alt="" />
+                    </div>
+                    {/* <h3>First Slide</h3> */}
+                </div>
+            }
+        );
         return (
             <section id="awards">
                 <div>
-                    <br/>
+                    <br />
                     <h2>Awards</h2>
-                    <br/>
+                    <br />
                     <div className="slide-container">
                         <Slide {...properties}>
-                            <div className="each-slide">
-                                <div className="image-container">
-                                    <img src='images/header-background.jpg' alt="" />
-                                </div>
-                                {/* <h3>First Slide</h3> */}
-                            </div>
-                            <div className="each-slide">
-                                <div className="image-container">
-                                    <img src='images/testimonials-bg.jpg' alt="" />
-                                </div>
-                                {/* <h3>Second Slide</h3> */}
-                            </div>
+                            {awardsImages}
                         </Slide>
                     </div>
                 </div>

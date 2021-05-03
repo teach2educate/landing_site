@@ -1,38 +1,53 @@
 import React, { Component } from 'react';
 
 class Testimonials extends Component {
-  render() {
-
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
-        return  <li key={testimonials.user}>
-            <blockquote>
-               <p>{testimonials.text}</p>
-               <cite>{testimonials.user}</cite>
-            </blockquote>
-         </li>
-      })
-    }
-
-    return (
-      <section id="testimonials">
-      <div className="text-container">
-         <div className="row">
-
-            <div className="two columns header-col">
-               <h1><span>Client Testimonials</span></h1>
+   render() {
+      return (
+         <section id="testimonials">
+            <div id="test-list">
+               <section>
+                  <div class="top-box"></div>
+                  <img src="https://images.pexels.com/photos/1056475/pexels-photo-1056475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Picture of Vivian Williams" />
+                  <br />
+                  <div class="bottom-box">
+                     <blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                     </blockquote>
+                     <div class="test-details">
+                        <p><span>Vivian Williams</span><br />Los Angeles, CA</p>
+                     </div>
+                  </div>
+               </section>
+               <section>
+                  <div class="top-box"></div>
+                  <img src="https://images.pexels.com/photos/1056475/pexels-photo-1056475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Picture of Vivian Williams" />
+                  <br />
+                  <div class="bottom-box">
+                     <blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                     </blockquote>
+                     <div class="test-details">
+                        <p><span>Vivian Williams</span><br />Los Angeles, CA</p>
+                     </div>
+                  </div>
+               </section>
+               <section>
+                  <div class="top-box"></div>
+                  <img src="https://images.pexels.com/photos/1056475/pexels-photo-1056475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Picture of Vivian Williams" />
+                  <br />
+                  <div class="bottom-box">
+                     <blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                     </blockquote>
+                     <div class="test-details">
+                        <p><span>Vivian Williams</span><br />Los Angeles, CA</p>
+                     </div>
+                  </div>
+               </section>
             </div>
-
-            <div className="ten columns flex-container">
-                  <ul className="slides">
-                      {testimonials}
-                  </ul>
-               </div>
-            </div>
-         </div>
-   </section>
-    );
-  }
+         </section>
+      );
+   }
 }
 
 export default Testimonials;
