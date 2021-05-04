@@ -4,9 +4,9 @@ import 'react-slideshow-image/dist/styles.css'
 class Awards extends Component {
     render() {
         const properties = {
-            duration: 1200,
+            duration: 1300,
             autoplay: true,
-            transitionDuration: 500,
+            transitionDuration: 800,
             arrows: false,
             infinite: true,
             easing: "ease",

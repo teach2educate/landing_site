@@ -7,7 +7,7 @@ class Team extends Component {
         <br></br>
         <div className="row education">
           <div className="three columns header-col">
-            <img className="profile-pic" src="images/ravi.png" alt="Ravi Raju" />
+            <img className="profile-pic" src="images/team/ravi.png" alt="Ravi Raju" />
           </div>
 
           <div className="nine columns main-col">
@@ -29,7 +29,7 @@ class Team extends Component {
         <br></br>
         <div className="row education">
           <div className="three columns header-col">
-            <img className="profile-pic" src="images/vikas.png" alt="Vikas Badami" />
+            <img className="profile-pic" src="images/team/vikas.png" alt="Vikas Badami" />
           </div>
 
           <div className="nine columns main-col">
