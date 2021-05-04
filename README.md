@@ -4,6 +4,8 @@
 
 - [GitHub Pages](https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/)
 
+    - `$ yarn build`
+    - `$ yarn run deploy`
     - [T2E GitHub Pages](https://github.com/teach2educate/landing_site/settings/pages)
     - [https://teach2educate.github.io/landing_site/](https://teach2educate.github.io/landing_site/)
 
