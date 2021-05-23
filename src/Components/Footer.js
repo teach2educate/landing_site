@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-
+import { Section } from './styled';
 class Footer extends Component {
   render() {
-
     // var socials = [
     //   {
     //     "name": "linkedin",
@@ -20,7 +19,6 @@ class Footer extends Component {
     // });
     return (
       <footer>
-
         <div className="row">
           <div className="twelve columns">
             {/* <ul className="social-links">
@@ -28,11 +26,16 @@ class Footer extends Component {
             </ul> */}
 
             <ul className="copyright">
-              <li style={{color:'white', fontWeight: 'bold'}}>&copy; 2021, Teach2Educate</li>
+              <li style={{ color: 'white', fontWeight: 'bold' }}>
+                &copy; 2021, Teach2Educate
+              </li>
             </ul>
-
           </div>
-          <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+          <div id="go-top">
+            <a className="smoothscroll" title="Back to Top" href="#home">
+              <i className="icon-up-open"></i>
+            </a>
+          </div>
         </div>
       </footer>
     );
