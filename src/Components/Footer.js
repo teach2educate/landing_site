@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Section } from './styled';
+// import { Section } from './styled';
 class Footer extends Component {
   render() {
     // var socials = [

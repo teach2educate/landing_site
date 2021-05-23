@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Section, Hero } from './styled';
+import { Hero } from './styled';
 class Header extends Component {
   render() {
     var socials = [

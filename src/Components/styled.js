@@ -9,5 +9,6 @@ export const Hero = styled.div`
   @media (max-width: 768px) {
     padding: 20px;
   }
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
 `;

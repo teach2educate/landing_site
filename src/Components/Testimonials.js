@@ -12,7 +12,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/students/suma.jpeg"
-              alt="Picture of Suma Marewad"
+              alt="Suma Marewad"
             />
             <br />
             <div class="bottom-box">
@@ -42,7 +42,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/students/vijay_lakshmi.jpeg"
-              alt="Picture of VijayaLakshmi"
+              alt="VijayaLakshmi"
             />
             <br />
             <div class="bottom-box">
@@ -72,7 +72,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/students/tejaswini.jpeg"
-              alt="Picture of Tejaswini"
+              alt="Tejaswini"
             />
             <br />
             <div class="bottom-box">
@@ -102,7 +102,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/parents/suma_mother.jpeg"
-              alt="Picture of Nirmala"
+              alt="Nirmala"
             />
             <br />
             <div class="bottom-box">
@@ -132,7 +132,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/parents/tejaswini_mother.jpeg"
-              alt="Picture of Basavva"
+              alt="Basavva"
             />
             <br />
             <div class="bottom-box">
@@ -162,7 +162,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/teachers/nalini.jpeg"
-              alt="Picture of Nalini V Kulakarni"
+              alt="Nalini V Kulakarni"
             />
             <br />
             <div class="bottom-box">
@@ -192,7 +192,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/teachers/shantala.jpeg"
-              alt="Picture of Shantala Pandurangi"
+              alt="Shantala Pandurangi"
             />
             <br />
             <div class="bottom-box">
@@ -222,7 +222,7 @@ class Testimonials extends Component {
             <div class="top-box"></div>
             <img
               src="images/testimonials/teachers/nadaf.jpeg"
-              alt="Picture of A H Nadaf"
+              alt="A H Nadaf"
             />
             <br />
             <div class="bottom-box">
