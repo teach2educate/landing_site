@@ -17,7 +17,7 @@ class Header extends Component {
     var networks = socials.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target='blank'>
             <i className={network.className}></i>
           </a>
         </li>
@@ -37,32 +37,32 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+              <span role="img" aria-label="home">🏡</span> Home
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#visionMission">
-                Vision & Mission
+              <span role="img" aria-label="mission">🧗🏻‍♂️</span> Mission <span role="img" aria-label="vision">⛳</span> Vision
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#team_culture">
-                Team
+              <span role="img" aria-label="team">🤓</span> Team
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#awards">
-                Awards
+              <span role="img" aria-label="awards">🏆</span> Awards
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#testimonials">
-                Testimonals
+              <span role="img" aria-label="testimonials">🗣️</span> Testimonials
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#career">
-                Careers
+              <span role="img" aria-label="careers">🤝</span> Careers
               </a>
             </li>
             {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}

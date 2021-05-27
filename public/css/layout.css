@@ -248,6 +248,10 @@ ul#nav li.current a {
   color: #fff;
 }
 
+#awards h3 {
+  color: #fff;
+}
+
 #awards image-container {
   max-height: 20%;
 }
@@ -1070,7 +1074,7 @@ call-to-action .button {
 
 #test-list section .bottom-box {
   width: 263px;
-  transform: translateY(-50px);
+  /* transform: translateY(-50px); */
 }
 
 #test-list section .bottom-box blockquote {
@@ -1084,7 +1088,7 @@ call-to-action .button {
   font-style: italic;
   font-size: 16px;
   line-height: 21px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 #test-list section .bottom-box .test-details {

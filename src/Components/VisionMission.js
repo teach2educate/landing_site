@@ -7,7 +7,7 @@ class VisionMission extends Component {
         <div className="deck">
           <div className="card">
             <div className="face">
-              <h1>Mission</h1>
+              <h1><span role="img" aria-label="mission">🧗🏻‍♂️</span> Mission</h1>
               <p>
                 Join us in our mission to democratise education by delivering
                 access to Quality Education to every child enrolled in schools,
@@ -19,7 +19,7 @@ class VisionMission extends Component {
           </div>
           <div className="card">
             <div className="face">
-              <h1>Vision</h1>
+              <h1><span role="img" aria-label="vision">⛳</span> Vision</h1>
               <p>
                 We have a dream to create a world where education is not a
                 business limited to securing good marks in schools, but one,

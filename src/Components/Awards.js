@@ -29,7 +29,7 @@ class Awards extends Component {
       return (
         <div className="each-slide" key={image}>
           <div className="image-container">
-            <img src={image} height="100%" alt="" />
+            <img src={image} height="50%" alt="" />
           </div>
           {/* <h3>First Slide</h3> */}
         </div>
@@ -38,7 +38,12 @@ class Awards extends Component {
     return (
       <Section class="" id="awards">
         <div>
-          <h2>Awards</h2>
+          <br></br>
+
+          <h2><span role="img" aria-label="trophy">🏆</span> <a href="https://www.evidyaloka.org/nsic" target="_blank" rel="noopener noreferrer">NSIC-2021</a> <span role="img" aria-label="medal">🥇</span></h2>
+          <br></br>
+          <h3><span role="img" aria-label="winner">🥳</span> Winners of the National-level competition</h3>
+          <h3>Addressing Quality <span role="img" aria-label="winner">📚</span> Education.</h3>
           <br />
           <div className="slide-container">
             <Slide {...properties}>{awardsImages}</Slide>

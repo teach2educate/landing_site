@@ -6,7 +6,7 @@ class Testimonials extends Component {
       <Section id="testimonials">
         <br />
         <br />
-        <h2>Testimonials</h2>
+        {/* <h2>Testimonials</h2> */}
         <div id="test-list">
           <section>
             <div class="top-box"></div>
@@ -26,7 +26,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=eP0K6-9uhWg">
+                    <span role="img" aria-label="sumaTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=eP0K6-9uhWg" target="_blank" rel="noopener noreferrer">
                       Suma Marewad
                     </a>
                   </span>
@@ -56,7 +57,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=JqNr6FwS3gw">
+                    <span role="img" aria-label="vijayaTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=JqNr6FwS3gw" target="_blank" rel="noopener noreferrer">
                       VijayaLakshmi
                     </a>
                   </span>
@@ -86,7 +88,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=JZ6ZlxsNadk">
+                    <span role="img" aria-label="tejaswiniTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=JZ6ZlxsNadk" target="_blank" rel="noopener noreferrer">
                       Tejaswini
                     </a>
                   </span>
@@ -116,7 +119,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=X5c6NOCZCfo">
+                    <span role="img" aria-label="nirmalaTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=X5c6NOCZCfo" target="_blank" rel="noopener noreferrer">
                       Nirmala
                     </a>
                   </span>
@@ -146,7 +150,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=O_PQX0N8SwQ">
+                    <span role="img" aria-label="basavvaTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=O_PQX0N8SwQ" target="_blank" rel="noopener noreferrer">
                       Basavva
                     </a>
                   </span>
@@ -176,7 +181,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=NRxXRbkOu64">
+                    <span role="img" aria-label="naliniTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=NRxXRbkOu64" target="_blank" rel="noopener noreferrer">
                       Nalini V Kulakarni
                     </a>
                   </span>
@@ -206,7 +212,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=5QE6J3zM4ok">
+                    <span role="img" aria-label="shantalaTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=5QE6J3zM4ok" target="_blank" rel="noopener noreferrer">
                       Shantala Pandurangi
                     </a>
                   </span>
@@ -235,7 +242,8 @@ class Testimonials extends Component {
               <div class="test-details">
                 <p>
                   <span>
-                    <a href="https://www.youtube.com/watch?v=zlE0E-5dZaM">
+                    <span role="img" aria-label="nadafTestimonial">📽️</span>
+                    <a href="https://www.youtube.com/watch?v=zlE0E-5dZaM" target="_blank" rel="noopener noreferrer">
                       A H Nadaf
                     </a>
                   </span>
